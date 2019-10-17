@@ -4408,5 +4408,13 @@ const githubData = [
 ]
 
 
+for(i = 0; i < githubData.length; i++){
 
-console.log(githubData[6]["payload"]["commits"]["message"])
+  if (githubData["id"] = "8030403992") {
+
+  const commitMessage = githubData[i]["payload"]["commits"]
+ 
+  console.log(commitMessage)
+
+}}
+
